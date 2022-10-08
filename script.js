@@ -77,7 +77,7 @@ function setName(e) {
 // Get Focus
 function getFocus() {
    if(localStorage.getItem('focus') === null) {
-      focus.textContent = '[Enter Focus]';
+      focus.textContent = 'Make cool videos';
    } else {
       focus.textContent = localStorage.getItem('focus');
    }
